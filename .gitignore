@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+*.lcov
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Build / dist
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+
+# PM2 logs
+.pids
+*.pm2
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+.parcel-cache
+.cache
+.sass-cache
